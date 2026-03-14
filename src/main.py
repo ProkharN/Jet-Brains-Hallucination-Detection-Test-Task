@@ -26,6 +26,17 @@ def main() -> None:
     log_every = 10000
     query_words = ["alice", "rabbit", "queen", "king", "cat"]
 
+    data_path = "data/text8_subset.txt"
+    min_count = 5
+    max_vocab_size = 10000
+    window_size = 2
+    embedding_dim = 100
+    num_negative = 5
+    learning_rate = 0.025
+    epochs = 1
+    log_every = 20000
+    query_words = ["king", "queen", "man", "woman", "city"]
+
     # Data preparation
     text = read_text(data_path)
     tokens = tokenize(text)
