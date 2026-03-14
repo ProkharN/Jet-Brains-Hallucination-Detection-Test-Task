@@ -15,16 +15,16 @@ from src.utils import find_nearest_neighbors
 
 def main() -> None:
     # Hyperparameters and configuration
-    data_path = "data/sample.txt"
-    min_count = 1
-    max_vocab_size = 3000
-    window_size = 2
-    embedding_dim = 50
-    num_negative = 5
-    learning_rate = 0.025
-    epochs = 2
-    log_every = 10000
-    query_words = ["alice", "rabbit", "queen", "king", "cat"]
+    # data_path = "data/sample.txt"
+    # min_count = 1
+    # max_vocab_size = 3000
+    # window_size = 2
+    # embedding_dim = 50
+    # num_negative = 5
+    # learning_rate = 0.025
+    # epochs = 2
+    # log_every = 10000
+    # query_words = ["alice", "rabbit", "queen", "king", "cat"]
 
     data_path = "data/text8_subset.txt"
     min_count = 5
