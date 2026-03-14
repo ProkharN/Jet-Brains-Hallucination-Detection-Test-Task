@@ -2,6 +2,3 @@
 __pycache__/
 *.pyc
 .DS_Store
-src/model.py
-src/utils.py
-src/train.py
